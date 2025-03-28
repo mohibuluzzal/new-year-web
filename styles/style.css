@@ -108,7 +108,8 @@ body{
     height: 500px;
 }
 .off-section-img-container img{
-    width: 100%;
+    width: 100%;;
+    background-size: cover;
     height: 100%;
 }
 /* off section end
@@ -120,8 +121,7 @@ body{
     max-width: 1280px;
     height: 600px;
     margin: 0 auto;
-    background-image: url(../images/vectorrr.png);
-    background-size: cover;
+    background-image: url(../images/vector.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
