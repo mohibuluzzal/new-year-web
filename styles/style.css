@@ -26,6 +26,9 @@ body{
 .text-slight-white{
     color: rgba(255, 255, 255, 0.8);
 }
+.text-light-white{
+    color: rgba(7, 2, 17, 0.6);
+}
 .text-flex{
     display: flex;
     flex-direction: column;
@@ -126,8 +129,7 @@ body{
 .mid-party-flex{
     display: flex;
     align-items: center;
-    gap: 59px;
-    
+    gap: 59px;  
 }
 .midnight-party-section-content{
     width: 65%;
@@ -175,3 +177,42 @@ body{
     background: rgb(255, 0, 0);
     border: none;
 }
+/* event section end
+======================= */
+
+/* coming soon section start
+========================== */
+.coming-soon-container{
+    max-width: 1280px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.coming-soon-left-text-content{
+    width: 33%;
+    padding-right: 30px;
+}
+.coming-soon-img{
+    width: 33%;
+    border: 15px solid red;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.coming-soon-img img{
+    width: 100%;
+    padding: 15px;
+}
+.coming-soon-right-text-content{
+    width: 33%;
+    padding-left: 80px;
+    padding-top: 90px;
+}
+.coming-soon-right-text-content img{
+    margin-top: 30px;
+}
+/* coming soon section end
+========================== */
