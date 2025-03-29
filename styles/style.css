@@ -284,3 +284,47 @@ body{
 }
 /* portfolio section style end
 ============================= */
+
+/* newsletter section style start
+============================== */
+.newsletter-container{
+    max-width: 1280px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 616px;
+    text-align: center;
+}
+.image-with-content{
+    width: 850px;
+    height: 336px;
+}
+.subscriber-container input{
+    width: 530px;
+    height: 72px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.subscriber-container button{
+    width: 150px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+/* newsletter section style end
+============================== */
